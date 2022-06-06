@@ -9,6 +9,8 @@ class Person {
     }
 }
 
+
+// inheritance - Programmer extends Person
 class Programmer extends Person {
     constructor(language, name, age){
         super(name, age)

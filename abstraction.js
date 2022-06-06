@@ -33,9 +33,16 @@ class Job {
     }   
 }
 
-const john = new Person({
-    firstName: 'John',
-    lastName: 'Doe',
+const timmy = new Person({
+    firstName: 'Timmy',
+    lastName: 'Itz',
     job: new Job('Serai', 'FE Dev', '40000')
 })
 
+console.log(timmy)
+
+timmy.learn('es6')
+
+console.log(timmy)
+
+console.log(timmy.fullName)

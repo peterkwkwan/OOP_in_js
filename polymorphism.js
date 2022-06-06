@@ -16,6 +16,7 @@ class Dog extends Animal {
         super(name)
     }
 
+    // polymorphism - ability of an interface to take on one or more different forms
     makeSound () {
         super.makeSound();
         console.log('woof woof')
